@@ -31,7 +31,7 @@
             <nav class="navbar navbar-expand-lg navbar-light  py-3  " style="background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);">
                 <a class="navbar-brand pl-5" href="javascript:;">
-                    <img src="/new23.png" class="img img-fluid" width="50px" alt="logo">
+                    <img src="/images/new23.png" class="img img-fluid" width="50px" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-md-8 col-10 mx-auto mb-3 my-5 py-5 border shadow">
                     <h3 class="text-center mb-3">Form</h3>
-                    <form action="contact.html" method="POST" id="form" onsubmit="return formValidation();">
+                    <form action="contact.html" method="POST" id="form" onsubmit="  formValidation();">
                         <div class="form-group">
                             <label>Name</label>
                             <input name="name" id="name" type="text" placeholder="Name" class="form-control">
@@ -159,7 +159,7 @@
                 <div class="row">
                     <div class="col-md-3 col-6 pl-5">
                         <div class="footer_title">
-                            <img src="/new23.png" class="img img-fluid" width="150px" alt="logo">
+                            <img src="/images/new23.png" class="img img-fluid" width="150px" alt="logo">
                         </div>
                         <div>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, totam est illum ipsum
@@ -275,19 +275,14 @@
     /*
     //Form validation with Jquery and JavaScript
     $(document).ready(function () {
-
         $('#form').submit(function (e) {
-
             //Get Value
             var name = $('#name').val().trim();
             var email = $('#email').val().trim();
             var msg = $('#msg').val().trim();
-
             //reset the errors
             $(".error").remove();
-
             var isValidForm = true; 
-
             //Validation Conditions here
             if (name.length < 1) {
                 $('#name').after('<span class="error">This field is required</span>');
@@ -298,16 +293,13 @@
                 $('#email').after('<span class="error">This field is required</span>');
                 var isValidForm = false;
             } 
-
             if (msg.length < 1) {
                 $('#msg').after('<span class="error">This field is required</span>');
                 var isValidForm = false;
             }
-
             return isValidForm;  //if isValidForm is true then form submits else submission is stopped
                      
         });
-
     });*/
 
 </script>
